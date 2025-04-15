@@ -7,7 +7,7 @@
 
 struct FakeOneDataSource: DataSourceProtocol {
     
-    func getData() -> MyModel {
-        MyModel(id: 12, text: "Joska")
+    func getCurrentModel() -> MyModel {
+        MyModel(id: 12, name: "Bela")
     }
 }

@@ -7,6 +7,6 @@
 
 protocol MyModelRepository {
     
-    func getName() -> MyModel
+    func getCurrentModel() -> MyModel
 }
 

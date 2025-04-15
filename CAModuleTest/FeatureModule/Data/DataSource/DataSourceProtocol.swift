@@ -7,5 +7,5 @@
 
 protocol DataSourceProtocol {
 
-    func getData() -> MyModel
+    func getCurrentModel() -> MyModel
 }

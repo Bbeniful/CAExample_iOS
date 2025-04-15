@@ -14,7 +14,7 @@ struct GetNameUseCaseImpl: GetNameUseCaseProtocol {
     @Inject private var repository: MyModelRepository
     
     func getName() -> String {
-        let model = repository.getName()
-        return model.text
+        let model = repository.getCurrentModel()
+        return model.name
     }
 }

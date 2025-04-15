@@ -9,7 +9,7 @@ class MyModelRepositoryImpl: MyModelRepository {
     
     @Inject private var dataSource: DataSourceProtocol
     
-    func getName() -> MyModel {
-        return dataSource.getData()
+    func getCurrentModel() -> MyModel {
+        return dataSource.getCurrentModel()
     }
 }

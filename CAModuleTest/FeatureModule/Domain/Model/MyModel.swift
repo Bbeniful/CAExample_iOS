@@ -6,6 +6,6 @@
 //
 
 struct MyModel: Identifiable {
-    var id: Int
-    var text: String
+    let id: Int
+    let name: String
 }
